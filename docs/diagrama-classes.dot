@@ -1,0 +1,20 @@
+digraph FactoryMethod {
+  graph [rankdir=TB, nodesep=0.55, ranksep=0.8];
+  node [shape=record, fontname="Arial"];
+  edge [fontname="Arial"];
+
+  Enemy [label="{«interface» Enemy|+ attack(): void}"];
+  MutantAnimal [label="{MutantAnimal|+ attack(): void}"];
+  Cangaceiro [label="{Cangaceiro|+ attack(): void}"];
+  Location [label="{«abstract» Location|# createEnemy(): Enemy\l+ encounterPlayer(): void\l}"];
+  AmazonLocation [label="{AmazonLocation|# createEnemy(): Enemy}"];
+  SertaoLocation [label="{SertaoLocation|# createEnemy(): Enemy}"];
+
+  MutantAnimal -> Enemy [arrowhead=empty, style=dashed];
+  Cangaceiro -> Enemy [arrowhead=empty, style=dashed];
+  AmazonLocation -> Location [arrowhead=empty];
+  SertaoLocation -> Location [arrowhead=empty];
+  Location -> Enemy [style=dashed, label=" cria/usa "];
+  AmazonLocation -> MutantAnimal [style=dashed, label=" instancia "];
+  SertaoLocation -> Cangaceiro [style=dashed, label=" instancia "];
+}
