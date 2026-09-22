@@ -14,12 +14,10 @@ factory-method/
 └── README.md
 ```
 
-Até esta etapa, `src/game` contém a interface `Enemy`, os produtos concretos `MutantAnimal` e `Cangaceiro`, e o creator abstrato `Location`, que define o Factory Method `createEnemy()`. As próximas etapas adicionarão os demais elementos do domínio e do padrão na seguinte ordem:
+Até esta etapa, `src/game` contém a interface `Enemy`, os produtos concretos `MutantAnimal` e `Cangaceiro`, o creator abstrato `Location` e os concrete creators `AmazonLocation` e `SertaoLocation`. As próximas etapas adicionarão os demais elementos do domínio e do padrão na seguinte ordem:
 
-1. creator e Factory Method;
-2. localizações concretas;
-3. simulação;
-4. diagrama de classes.
+1. simulação;
+2. diagrama de classes.
 
 ## Documentação
 
