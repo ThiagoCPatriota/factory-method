@@ -14,11 +14,9 @@ factory-method/
 └── README.md
 ```
 
-Até esta etapa, `src/game` contém a interface `Enemy`, os produtos concretos `MutantAnimal` e `Cangaceiro`, o creator abstrato `Location`, os concrete creators `AmazonLocation` e `SertaoLocation`, e a simulação `Main`. A próxima etapa é revisar e documentar o diagrama de classes.
-
-1. diagrama de classes.
+Ao final, `src/game` contém a interface `Enemy`, os produtos concretos `MutantAnimal` e `Cangaceiro`, o creator abstrato `Location`, os concrete creators `AmazonLocation` e `SertaoLocation`, e a simulação `Main`.
 
 ## Documentação
 
-- `docs/DIAGRAMA.md`: diagrama e explicação dos papéis do padrão, a ser atualizado ao final.
+- `docs/DIAGRAMA.md`: diagrama e explicação dos papéis do padrão.
 - `docs/PROMPTS_IA.md`: registro dos prompts e decisões tomadas ao longo da solução.

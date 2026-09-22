@@ -48,4 +48,6 @@ classDiagram
 
 A classe `Location` controla o fluxo do confronto, mas não instancia diretamente um inimigo concreto. Cada subclasse escolhe o produto adequado sobrescrevendo `createEnemy()`.
 
+A classe `Main` não aparece no diagrama porque apenas executa a simulação; ela não participa dos papéis do padrão.
+
 Para adicionar futuramente o Rio de Janeiro, basta criar um novo `Enemy` (por exemplo, o inimigo da fase) e uma nova subclasse de `Location`; o fluxo `encounterPlayer()` permanece inalterado.
