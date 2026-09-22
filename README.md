@@ -14,14 +14,12 @@ factory-method/
 └── README.md
 ```
 
-Até esta etapa, `src/game` contém apenas a interface `Enemy`, que define a operação comum dos inimigos. As próximas etapas adicionarão os demais elementos do domínio e do padrão na seguinte ordem:
+Até esta etapa, `src/game` contém a interface `Enemy` e os produtos concretos `MutantAnimal` e `Cangaceiro`. As próximas etapas adicionarão os demais elementos do domínio e do padrão na seguinte ordem:
 
-1. abstração comum dos inimigos;
-2. produtos concretos;
-3. creator e Factory Method;
-4. localizações concretas;
-5. simulação;
-6. diagrama de classes.
+1. creator e Factory Method;
+2. localizações concretas;
+3. simulação;
+4. diagrama de classes.
 
 ## Documentação
 
