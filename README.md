@@ -14,7 +14,7 @@ factory-method/
 └── README.md
 ```
 
-Neste primeiro momento, `src/game` ainda não contém classes Java. As próximas etapas adicionarão os elementos do domínio e do padrão na seguinte ordem:
+Até esta etapa, `src/game` contém apenas a interface `Enemy`, que define a operação comum dos inimigos. As próximas etapas adicionarão os demais elementos do domínio e do padrão na seguinte ordem:
 
 1. abstração comum dos inimigos;
 2. produtos concretos;
